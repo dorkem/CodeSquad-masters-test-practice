@@ -22,9 +22,10 @@ turn은 턴으로 처리
 arr은 기존 로직과 비교를 위해 사용
 
 ### 3. 기능 구현
+```
 print("간단 숫자 퍼즐")
 
-    while True:
+while True:
     
     if arr == numbers:
         print(f"축하합니다! {turn}턴만에 퍼즐을 완성하셨습니다!")
@@ -43,6 +44,7 @@ print("간단 숫자 퍼즐")
         nums = input()
         print()
         check(nums)
+```
 
 flag가 0이면 배열과 Turn을 출력하지 않는다.
 또한 성공시 반복 종료가 됩니다.
@@ -82,6 +84,9 @@ def check(nums):
 ## 실행 결과
 ### 성공
 ![실행 결과](image.png)
+
+
+
 
 ### 실패
 ![에러 처리](image-1.png)
